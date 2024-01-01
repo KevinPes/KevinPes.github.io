@@ -1,7 +1,8 @@
 body{
-    background: linear-gradient(rgb(20,20,20), rgb(0,0,0));
+    background-color: rgb(20,20,20);
+    /*background: linear-gradient(to top, rgb(20,20,20), rgb(0,0,0));
     background-repeat: no-repeat;
-    background: fixed;
+    background: fixed;*/
 }
 
 .background{
