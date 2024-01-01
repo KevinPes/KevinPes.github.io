@@ -3,13 +3,15 @@ body{
     background-repeat: no-repeat;
     background: fixed;
 }
+/*
 .background{
     background-image: url("Images/Space-Background-Image-8.jpg");
-    background-repeat: no-repeat;  /* Non ripete l'immagine */
-    background-attachment: fixed;  /* Fa si che l'immagine riempia tutto lo schermo, strechando l'immagine */
-    background-position: center;   /* Centra l'immagine */
-    background-size: cover;        /* Ridimensione l'immagine in base alla pagina */
+    background-repeat: no-repeat;  /* Non ripete l'immagine /
+    background-attachment: fixed;  /* Fa si che l'immagine riempia tutto lo schermo, strechando l'immagine /
+    background-position: center;   /* Centra l'immagine /
+    background-size: cover;        /* Ridimensione l'immagine in base alla pagina /
 }
+*/
 .text{
     border-style: dotted;
     border-width: 5px;
