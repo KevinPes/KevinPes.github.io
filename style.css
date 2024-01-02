@@ -64,11 +64,11 @@ li:nth-child(3n+1){
 img{
     width: 100px;
     height: 100px;
-    border-radius: 50px solid;
+    border-radius: 50px /*solid gold*/;
     object-fit: cover;
     float: left; /* mette l'immagine a sinistra del prossimo elemento */
     margin-right: 10px;
-    /*background: grey;*/
+    background: grey;
 }
 
 .titoli{
