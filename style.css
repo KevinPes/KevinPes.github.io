@@ -4,6 +4,43 @@ body{
     background-attachment: fixed;
 }
 
+a:link{
+    color: green;
+}
+a:visited{
+    color: grey;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color:yellow;
+}
+
+button:hover{
+    background-color: lightgrey;
+}
+button:active{
+    background-color: white;
+}
+/*
+li:nth-child(7){
+    background-color: yellow;
+}
+li:nth-child(even){
+    background-color: rgb(0, 255, 242);
+}
+li:nth-child(odd){
+    background-color: rgb(89, 0, 255);
+}
+li:nth-child(3n){
+    background-color: yellow;
+}
+li:nth-child(3n+1){
+    background-color: yellow;
+}
+*/
+
 .background{
     background-image: url("Images/Space-Background-Image-8.jpg");
     background-repeat: no-repeat;  /* Non ripete l'immagine */
@@ -27,10 +64,11 @@ body{
 img{
     width: 100px;
     height: 100px;
-    border-radius: 50px;
+    border-radius: 50px solid;
     object-fit: cover;
-    float: left;
+    float: left; /* mette l'immagine a sinistra del prossimo elemento */
     margin-right: 10px;
+    background: grey;
 }
 
 .titoli{
