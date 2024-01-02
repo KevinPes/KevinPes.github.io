@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to top, rgb(20,20,20), rgb(0,0,0));
+    background: linear-gradient(to top, rgb(50, 50, 50), rgb(0,0,0));
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -18,10 +18,10 @@ a:active{
 }
 
 button:hover{
-    background-color: lightgrey;
+    background-color: rgb(168, 116, 116);
 }
 button:active{
-    background-color: white;
+    background-color: rgb(255, 204, 204);
 }
 /*
 li:nth-child(7){
@@ -68,7 +68,7 @@ img{
     object-fit: cover;
     float: left; /* mette l'immagine a sinistra del prossimo elemento */
     margin-right: 10px;
-    background: grey;
+    /*background: grey;*/
 }
 
 .titoli{
