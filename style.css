@@ -2,6 +2,7 @@ body{
     background: linear-gradient(to top, rgb(50, 50, 50), rgb(0,0,0));
     background-repeat: no-repeat;
     background-attachment: fixed;
+    /*margin: 0px;*/
 }
 
 a:link{
@@ -17,6 +18,9 @@ a:active{
     color:yellow;
 }
 
+button{
+    border-radius: 5px;
+}
 button:hover{
     background-color: rgb(168, 116, 116);
 }
@@ -72,12 +76,19 @@ img{
 }
 
 .titoli{
+    text-shadow: 2px 2px 0px grey, 2px 2px 5px black;
     color: rgba(70, 70, 255, 0.699);
     font-weight: bold;
     font-family: "consolas", sans-serif;
     font-size: 18px;
 }
-
+/*
+.titoli:hover{
+    box-shadow: 5px 5px 5px white;
+}*/
+p{
+    clear: both; /* clear float */
+}
 #p1{
     color: rgb(255, 255, 255);
 }
@@ -92,4 +103,70 @@ img{
 }
 #p5{
     color: rgb(110, 110, 110);
+}
+
+table{
+    background-color: azure;
+}
+th{
+    background-color: gray;
+    width: 100px;
+}
+td{
+    background-color: lightslategray;
+}
+
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: green;
+
+    /*
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    
+    margin: 50px;
+    */
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+
+    padding: 50px;
+}
+#box3{
+    width: 300px;
+    height: 300px;
+    border-radius: 1px solid;
+    background: grey;
+    /*
+    position: relative;
+    left: 250px;
+    top: 250px;
+    */
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+#box4{
+    width: 100px;
+    height: 100px;
+    border-radius: 1px solid;
+    background: cyan;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#box5{
+    width: 300px;
+    height: 300px;
+    border-radius: 1px solid;
+    background: yellow;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
 }
